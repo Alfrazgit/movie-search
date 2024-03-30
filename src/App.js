@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import searchIcon from "./search.svg";
 import MovieCard from "./components/MovieCard";
 
-const API_URL = "http://www.omdbapi.com?apikey=f6fdb8a4";
+const API_URL = "https://www.omdbapi.com?apikey=f6fdb8a4";
 
 const App = () => {
   const searchMovies = async (title) => {
